@@ -1,0 +1,101 @@
+body{
+  background: #F4F4F4;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.app{
+  /* border: 1px solid #000; */
+  position: relative;
+  margin: 0 auto;
+    width: 80%;
+  height: 100vh;
+  display: flex;
+
+}
+.app ul{
+  display: flex;
+  margin: 10px 0 0 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 50%
+}
+.app ul li{
+  width: 100%;
+  font-size: 24px;
+  color: #A64B4B;
+}
+
+.controlers{
+  display: flex;
+  margin: 0 0;
+  flex-direction: column;
+  align-items: stretch;
+  width: 50%;
+}
+
+.controlers button{
+  background: #B12D2B;
+  border: 0;
+  color: #fff;
+  border-radius: 0 0 3px 3px;
+  height: 50px;
+  /* margin-top: 10%; */
+}
+.controlers label{
+  margin-top: 60%;
+  width: 100%;
+  height: 10%
+}
+.controlers label input{
+width: 99.5%;
+height: 100%;
+margin: 0;
+padding: 0;
+border-radius: 3px 3px 0 0;
+border: 1px solid #A64B4B;
+font-size: 21px;
+color: #A64B4B;
+
+}
+.task{
+  width: 100%;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+.task-wraper{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.input-task{
+display: flex;
+margin: auto 0;
+font-size: 21px;
+color: #A64B4B;
+width: 20%;
+}
+.task-text{
+  margin: 0;
+  display:  flex;
+  font-size: 21px;
+  color: #A64B4B;
+  width: 80%;
+  text-align: center;
+}
+.a-wraper{
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+}
